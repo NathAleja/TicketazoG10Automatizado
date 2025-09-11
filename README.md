@@ -124,11 +124,6 @@ Este proyecto fue desarrollado como trabajo final del curso de Automatizaciones 
 - Generación de reportes y documentación
 - Integración con CI/CD
 
-## 📧 Contacto
-
-Para cualquier consulta sobre este proyecto, puedes contactarme a través de:
-- Email: [tu-email@ejemplo.com]
-- LinkedIn: [tu perfil de LinkedIn]
 
 ## 📄 Licencia
 
