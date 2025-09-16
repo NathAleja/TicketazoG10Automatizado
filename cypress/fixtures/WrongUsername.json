@@ -1,0 +1,31 @@
+{
+  "txt_Name": "[data-cy='input-nombres']",
+  "txt_LastName": "[data-cy='input-apellido']",
+  "txt_Phone": "[data-cy='input-telefono']",
+  "txt_Dni": "[data-cy='input-dni']",
+  "cmb_Province": "[data-cy='select-provincia']",
+  "cmb_Location": "[data-cy='select-localidad']",
+  "txt_Date": "[class='flex items-center text-default-400 w-full gap-x-2 h-6 group-data-[invalid=true]:text-danger']",
+  "txt_Email": "[data-cy='input-email']",
+  "txt_ConfirmarEmail": "[data-cy='input-confirmar-email']",
+  "txt_Password": "[data-cy='input-password']",
+  "txt_ConfirmPassword": "[data-cy='input-repetir-password']",
+  "btn_Registrarse": "[data-cy='btn-registrarse']",
+  "msj_PasswordError": "La contraseña debe tener al menos 8 caracteres, incluyendo mayúsculas, minúsculas, números y símbolos.",
+  "data":{
+    "Name": "Lupe",
+    "LastName": "Ruiz",
+    "Phone": "1547896325",
+    "Dni": "35852147",
+    "Province": "Ciudad Autonoma de Buenos Aires",
+    "Location": "Recoleta",
+    "Date": "22/05/1996",
+    "Email": "luperuiz@gmail.com"
+  },
+  "dataError":{
+    "DniMinCaracters": "3585214",
+    "NameNumbers": "Lupe123&$"
+  }
+
+
+}
