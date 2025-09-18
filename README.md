@@ -6,6 +6,9 @@
 
 Repositorio para la automatización de pruebas del sitio web [Ticketazo.com.ar](https://ticketazo.com.ar), desarrollado como trabajo final del curso de Automatizaciones QA.
 
+## Links a Trello & Sheets con casos de prueba
+# Trello : https://trello.com/b/pXwq5o62/qa-ticketazo-grupo-10
+# Sheet  : https://docs.google.com/spreadsheets/d/1kpTUVVAqlLMxEZKmvzIKlgIWGrcRBhYC/edit?usp=sharing&ouid=116690584231525071698&rtpof=true&sd=true
 ## 📋 Descripción del Proyecto
 
 Este proyecto contiene los tests automatizados para la plataforma de venta de entradas Ticketazo, implementados con Cypress y JavaScript. El objetivo es validar los flujos críticos y funcionalidades principales del sitio web.
