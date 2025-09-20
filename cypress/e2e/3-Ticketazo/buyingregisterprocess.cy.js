@@ -5,6 +5,7 @@ describe('Buying and Register Process', () => {
   const REGISTER_API_PATTERN = "api/backend/register/register-user";
 
   it('selecting an event and a ticket', () => {
+    // Intercept the registration API call
     cy.intercept("POST", REGISTER_API_PATTERN).as("register");
     // Select an event
     cy.get('[data-cy="btn-ver-evento-7"]').click();
