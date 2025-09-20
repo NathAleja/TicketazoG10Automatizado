@@ -1,0 +1,29 @@
+{
+    "txt_Name": "[data-cy='input-nombres']",
+    "txt_LastName": "[data-cy='input-apellido']",
+    "txt_Phone": "[data-cy='input-telefono']",
+    "txt_Dni": "[data-cy='input-dni']",
+    "cmb_Province": "[data-cy='select-provincia']",
+    "cmb_Location": "[data-cy='select-localidad']",
+    "txt_Date": "[class='flex items-center text-default-400 w-full gap-x-2 h-6 group-data-[invalid=true]:text-danger']",
+    "txt_Email": "[data-cy='input-email']",
+    "txt_ConfirmarEmail": "[data-cy='input-confirmar-email']",
+    "txt_Password": "[data-cy='input-password']",
+    "txt_ConfirmPassword": "[data-cy='input-repetir-password']",
+    "btn_Registrarse": "[data-cy='btn-registrarse']",
+    "data": {
+        "Name": "Juan",
+        "LastName": "Pérez",
+        "Phone": "1123456789",
+        "Dni": "12345678",
+        "Province": "Córdoba",
+        "Location": "Córdoba",
+        "Date": "22/05/1996"
+    },
+    "dataError": {
+        "SinArroba": "juan.perezmail.com",
+        "SinTextoDespuesArroba": "juan.perez@",
+        "TerminaEnPunto": "juan.perez@mail.com.",
+        "SimboloNoPermitido": "a@a#a.com"
+    }
+}
