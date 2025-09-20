@@ -13,18 +13,19 @@
   "btn_Registrarse": "[data-cy='btn-registrarse']",
   "msj_PasswordError": "La contraseña debe tener al menos 8 caracteres, incluyendo mayúsculas, minúsculas, números y símbolos.",
   "data":{
-    "Name": "Lupe",
-    "LastName": "Ruiz",
+    "Name": "Sharon",
+    "LastName": "Rodriguez",
     "Phone": "1547896325",
-    "Dni": "35852147",
+    "Dni": "35852148",
     "Province": "Ciudad Autonoma de Buenos Aires",
     "Location": "Recoleta",
     "Date": "22/05/1996",
-    "Email": "luperuiz@gmail.com"
+    "Email": "sharonrodriguez@gmail.com"
   },
   "dataError":{
     "DniMinCaracters": "3585214",
-    "NameNumbers": "Lupe123&$"
+    "NameNumbers": "Luis123",
+    "LastNameNumbers": "Rodriguez165"
   }
 
 
