@@ -1,4 +1,4 @@
-const { describe } = require("mocha");
+
 
 describe('Event Manager Creation', () => {
     it('should create an event manager successfully', () => {
@@ -84,5 +84,5 @@ describe('Event Manager Creation', () => {
         el.dispatchEvent(new Event('change', { bubbles: true }));
         el.dispatchEvent(new Event('blur', { bubbles: true }));
       });
-
-});
+    });
+  });
