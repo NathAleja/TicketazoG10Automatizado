@@ -81,5 +81,28 @@ describe('Event Manager Creation', () => {
             el.dispatchEvent(new Event('change', { bubbles: true }));
             el.dispatchEvent(new Event('blur', { bubbles: true }));
         });
+
+        // Fill in location
+        cy.get('[data-cy="select-lugar-evento"]').click();
+        cy.get('[data-cy="option-lugar-7"]').click();
+        cy.get('[data-cy="input-nombre-lugar"]').type('El galpón de la joda');
+        cy.get('[data-cy="input-calle-lugar"]').type('avenida siempre viva');
+        cy.get('[data-cy="input-altura-lugar"]').type('742');
+        cy.get('[data-cy="input-codigo-postal-lugar"]').type('5151');
+        cy.get('[name="provincia"]').type('Córdoba');
+        cy.get('[name="provincia"]').type('{enter}');
+        // Get the localidad field by its placeholder (Seleccione una localidad) and type "Córdoba"
+        cy.get('input[placeholder="Seleccione una localidad"]').type('Córdoba');
+        cy.get('input[placeholder="Seleccione una localidad"]').type('{enter}');
+        cy.get('[data-cy="input-info"]').type('Cerca del faro que tiene forma de faso');
+        cy.get('body').type('{esc}'); // Close any open dropdowns by pressing Escape key
+
+        // Click on "Siguiente" button to proceed
+        cy.get('.rounded-b-large > .z-0').click({ force: true });
+        // and then... right here the test ends because "Siguiente" button is clickable but nothing happens
+
+
+
+
     });
 });
